@@ -1,0 +1,436 @@
+{
+  "components": {
+    "J1": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "1x12-2p54mm-ra-socket-stag", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0.824472
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R1": {
+      "assembly": {
+        "refdef": {
+          "show": true
+        }
+      }, 
+      "footprint": "resistor-single", 
+      "layer": "top", 
+      "location": [
+        -18.74026, 
+        6.391786
+      ], 
+      "rotate": -18, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R10": {
+      "footprint": "resistor-single", 
+      "layer": "top", 
+      "location": [
+        18.761061, 
+        6.391786
+      ], 
+      "rotate": 18, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R2": {
+      "footprint": "resistor", 
+      "layer": "top", 
+      "location": [
+        -14.573445, 
+        6.392445
+      ], 
+      "rotate": -14, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R3": {
+      "footprint": "resistor", 
+      "layer": "top", 
+      "location": [
+        -10.406632, 
+        6.392445
+      ], 
+      "rotate": -10, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R4": {
+      "assembly": {
+        "refdef": {
+          "show": true
+        }
+      }, 
+      "footprint": "resistor", 
+      "layer": "top", 
+      "location": [
+        -6.239819, 
+        6.392445
+      ], 
+      "rotate": -6, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "R5": {
+      "footprint": "resistor", 
+      "layer": "top", 
+      "location": [
+        -2.073005, 
+        6.391835
+      ], 
+      "rotate": -2, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R6": {
+      "footprint": "resistor", 
+      "layer": "top", 
+      "location": [
+        2.093803, 
+        6.391786
+      ], 
+      "rotate": 2, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R7": {
+      "footprint": "resistor", 
+      "layer": "top", 
+      "location": [
+        6.26062, 
+        6.391835
+      ], 
+      "rotate": 6, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R8": {
+      "footprint": "resistor", 
+      "layer": "top", 
+      "location": [
+        10.427432, 
+        6.392445
+      ], 
+      "rotate": 10, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R9": {
+      "footprint": "resistor", 
+      "layer": "top", 
+      "location": [
+        14.594247, 
+        6.392445
+      ], 
+      "rotate": 14, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "config": {
+    "name": "respot", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "second", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.25, 
+      "outline": 0.25, 
+      "pad": 0.25, 
+      "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -8.9992538, 
+        -16.098206
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: Respot\nRevision: first\nDescription: a resistor pot\nLicense: MIT\nCompany: Boldport\nDesigner: Saar Drimer, saar@boldport.com"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -5.8472708, 
+        -29.110408
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top, bottom, white\nSoldermask: top, bottom, clear\nSurface finish: any lead free"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        -9.6572618, 
+        -39.837658
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      23.245758, 
+      -7.2889825
+    ]
+  }, 
+  "drills": {}, 
+  "files": {
+    "routing-data": "respot_routing.json", 
+    "routing-svg": "respot.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "layer-control": {
+    "assembly": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "conductor": {
+      "hide": false, 
+      "lock": false, 
+      "pads": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }, 
+      "place": true, 
+      "pours": {
+        "hide": false, 
+        "lock": true, 
+        "place": true
+      }, 
+      "routing": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }
+    }, 
+    "dimensions": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "documentation": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "drills": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "origin": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "outline": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "placement": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "silkscreen": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "soldermask": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "solderpaste": {
+      "hide": true, 
+      "lock": true, 
+      "place": true
+    }
+  }, 
+  "outline": {
+    "shape": {
+      "height": 45, 
+      "type": "path", 
+      "value": "m -18.535255,-1.9697153 2.134873,11.2877917 c 0.07653,0.3305933 0.371049,0.5646593 0.710384,0.5645693 h 31.379996 c 0.339335,9e-5 0.633855,-0.233976 0.710384,-0.5645693 l 2.134873,-11.2877917 c 0.06507,-0.3299359 0.378433,-0.5474688 0.643117,-0.6186346 l 1.127419,-0.2318102 c 0.317539,-0.0476 0.566541,-0.2973614 0.613174,-0.6150435 l 1.013233,-5.6118055 c 0.06515,-0.4404701 -0.27634,-0.835928 -0.721602,-0.8356367 h -42.421192 c -0.445262,-2.913e-4 -0.786754,0.3951666 -0.721602,0.8356367 l 1.013233,5.6118055 c 0.04663,0.3176821 0.295635,0.5674433 0.613174,0.6150435 l 1.127419,0.2318102 c 0.404062,0.087987 0.60534,0.4371277 0.643117,0.6186346 z", 
+      "width": 80
+    }
+  }, 
+  "shapes": {
+    "BCL": {
+      "footprint": "boldport-club-logo-bc", 
+      "layer": "bottom", 
+      "location": [
+        -0.209378, 
+        -6.804673
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "BLB": {
+      "footprint": "boldport-logo-b", 
+      "layer": "top", 
+      "location": [
+        -0.0, 
+        -6.804673
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LEAVES": {
+      "footprint": "leaves", 
+      "layer": "top", 
+      "location": [
+        -0.0, 
+        -6.804673
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "POURS": {
+      "footprint": "pours", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "soldermask": {
+    "circle-buffer": 0.05, 
+    "path-scale": 1.05, 
+    "rect-buffer": 0.05
+  }, 
+  "solderpaste": {
+    "circle-buffer": -0.1, 
+    "path-scale": 0.9, 
+    "rect-buffer": -0.1
+  }, 
+  "stackup": {
+    "name": "two-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
+  }
+}
